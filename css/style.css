@@ -178,7 +178,7 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #666666;
 }
@@ -380,3 +380,33 @@ footer {
 	p, h2, h3 { orphans: 3; widows: 3; }
 	h2, h3{ page-break-after: avoid; }
 }
+
+
+
+ .hero-container {
+    display : flex;
+align-items:start;
+
+}
+.contact-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+
+
+
